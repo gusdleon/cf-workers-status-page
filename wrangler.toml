@@ -1,4 +1,5 @@
 name = "cf-workers-status-page"
+main = "index.js"
 workers_dev = true
 account_id = ""
 type = "webpack"
