@@ -1,4 +1,4 @@
-name: buildOnCommit
+name: Build on commit
 
 
 on:
