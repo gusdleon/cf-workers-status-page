@@ -16,6 +16,15 @@ settings:
 
 monitors:
 
+  - id: gusdleon # unique identifier
+    name: gusdleon.com
+    description: 'MainPage' # default=empty
+    url: 'https://gusdleon.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
   - id: adsb # unique identifier
     name: adsbmap.gusdleon.com
     description: 'Que avión es ese???' # default=empty
@@ -23,7 +32,16 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
+
+  - id: region3d # unique identifier
+    name: region3d.com.mx
+    description: 'Comming soon™' # default=empty
+    url: 'https://region3d.com.mx/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
 
   - id: outline-livewick # unique identifier
     name: livewick.outlinecc.com
@@ -32,7 +50,7 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: outline-sketchbattle # unique identifier
     name: sketchbattle.outlinecc.com
@@ -41,7 +59,7 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   #- id: workers-cloudflare-com # unique identifier
   #  name: workers.cloudflare.com
